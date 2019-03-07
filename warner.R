@@ -9,6 +9,6 @@ send.mail(from = "duroy.raphael@gmail.com",
           to = c("obertran94@gmail.com"),
           subject = "[Forex Warner]",
           body = "Body of the email",
-          smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "duroy.raphael@gmail.com", passwd = "raphaelduroygmail", ssl = TRUE),
+          smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "duroy.raphael@gmail.com", passwd = "XXX", ssl = TRUE),
           authenticate = TRUE,
           send = TRUE)
